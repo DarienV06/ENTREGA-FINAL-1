@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientServices\**" />
+    <Compile Remove="Components\**" />
+    <Compile Remove="Context\**" />
+    <Compile Remove="DataAccess\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="ClientServices\**" />
+    <EmbeddedResource Remove="Components\**" />
+    <EmbeddedResource Remove="Context\**" />
+    <EmbeddedResource Remove="DataAccess\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="ClientServices\**" />
+    <None Remove="Components\**" />
+    <None Remove="Context\**" />
+    <None Remove="DataAccess\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CoderhouseContext.cs" />
+    <Compile Remove="CoderhouseContextModelSnapshot.cs" />
+    <Compile Remove="ConfigureServices.cs" />
+    <Compile Remove="ConfigureServicesdat.cs" />
+    <Compile Remove="ProductosController.cs" />
+    <Compile Remove="ProductosServiceUI.cs" />
+    <Compile Remove="Program %281%29.cs" />
+    <Compile Remove="Program %282%29.cs" />
+    <Compile Remove="UsuariosController.cs" />
+    <Compile Remove="UsuariosServiceUI.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="app.css" />
+    <None Remove="App.razor" />
+    <None Remove="appsettings %281%29.json" />
+    <None Remove="appsettings.Development %281%29.json" />
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+    <None Remove="bootstrap.min.css" />
+    <None Remove="bootstrap.min.css.map" />
+    <None Remove="CreateProducto.razor" />
+    <None Remove="EditProducto.razor" />
+    <None Remove="EditUsuario.razor" />
+    <None Remove="favicon.png" />
+    <None Remove="launchSettings %281%29.json" />
+    <None Remove="launchSettings.json" />
+    <None Remove="MainLayout.razor" />
+    <None Remove="MainLayout.razor.css" />
+    <None Remove="NavMenu.razor" />
+    <None Remove="NavMenu.razor.css" />
+    <None Remove="NewUsuario.razor" />
+    <None Remove="Productos.razor" />
+    <None Remove="ProductosForm.razor" />
+    <None Remove="Routes.razor" />
+    <None Remove="UsuarioForm.razor" />
+    <None Remove="Usuarios.razor" />
+    <None Remove="_Imports.razor" />
+  </ItemGroup>
+
+</Project>

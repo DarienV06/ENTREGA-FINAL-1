@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <Compile Remove="Context\**" />
+    <Compile Remove="DataAccess\**" />
+    <Compile Remove="Migrations\**" />
+    <Compile Remove="Services\**" />
+    <Content Remove="Context\**" />
+    <Content Remove="DataAccess\**" />
+    <Content Remove="Migrations\**" />
+    <Content Remove="Services\**" />
+    <EmbeddedResource Remove="Context\**" />
+    <EmbeddedResource Remove="DataAccess\**" />
+    <EmbeddedResource Remove="Migrations\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Context\**" />
+    <None Remove="DataAccess\**" />
+    <None Remove="Migrations\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="CoderhouseContext.cs" />
+    <Compile Remove="CoderhouseContextModelSnapshot.cs" />
+    <Compile Remove="ConfigureServices.cs" />
+    <Compile Remove="ConfigureServicesdat.cs" />
+    <Compile Remove="Producto.cs" />
+    <Compile Remove="ProductosController.cs" />
+    <Compile Remove="Program %281%29.cs" />
+    <Compile Remove="Program %282%29.cs" />
+    <Compile Remove="Usuario.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="appsettings %281%29.json" />
+    <Content Remove="appsettings.Development %281%29.json" />
+    <Content Remove="appsettings.Development.json" />
+    <Content Remove="appsettings.json" />
+    <Content Remove="Home - Copia.razor" />
+    <Content Remove="launchSettings %281%29.json" />
+    <Content Remove="launchSettings.json" />
+    <Content Remove="Routes.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="bootstrap.min.css" />
+    <None Remove="bootstrap.min.css.map" />
+    <None Remove="favicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
